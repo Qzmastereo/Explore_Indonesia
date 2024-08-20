@@ -1,0 +1,46 @@
+.container__header {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.226)), url(/img/bg/main.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.nav__header {
+  display: flex;
+  align-items: center;
+}
+
+.text--nav__header {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.44px;
+  color: white;
+  margin: 0 36px;
+}
+
+.logo__header {
+  margin-right: 20px;
+  margin-left: 47px;
+}
+
+.title__header {
+  width: 627.33px;
+  height: 260px;
+  top: 266px;
+  margin-left: 277.14px;
+  font-family: Roboto;
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 130px;
+  text-align: left;
+  color: white;
+}
+
+.button__header {
+  width: 271.14px;
+  height: 82px;
+  margin-left: 277.14px;
+  padding: 20px 0px 0px 0px;
+  border-radius: 211px;
+  background-color: rgb(221, 34, 66);
+}/*# sourceMappingURL=main.css.map */
