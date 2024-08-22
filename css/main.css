@@ -2,3 +2,137 @@
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
 }
+
+.container__header {
+  background-image: linear-gradient(215.79deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%), url(/img/bg/main.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.logo__header {
+  margin-left: 47px;
+  margin-top: 28px;
+}
+
+.text--nav__header {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.44px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.nav__header {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+
+.title__header {
+  margin-bottom: 52px;
+  width: 627.33px;
+  height: 260px;
+  top: 266px;
+  left: 277.14px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 130px;
+  text-align: left;
+  color: white;
+}
+
+.button__header {
+  width: 271.14px;
+  height: 82px;
+  top: 547px;
+  left: 277.14px;
+  gap: 10px;
+  border-radius: 211px;
+  color: white;
+  border: 0;
+  opacity: 0px;
+  background: rgb(221, 34, 66);
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+.text__header {
+  margin-left: 277px;
+}
+
+.travel__header {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 105px;
+}
+
+.travel__headerr {
+  background: rgba(0, 0, 0, 0.544);
+  display: flex;
+  gap: 140px;
+  padding: 0 71px;
+  align-items: center;
+}
+
+.travel--text__header {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: rgb(147, 147, 147);
+  margin: 0px;
+}
+
+.travel--title__header {
+  font-family: "DM Sans", sans-serif;
+  margin: 0px;
+  font-size: 26.41px;
+  font-weight: 700;
+  line-height: 41.08px;
+  text-align: left;
+  color: white;
+}
+
+.travel--item__header {
+  width: 210.11px;
+  height: 120px;
+  margin: 0px;
+}
+
+.travel--number__header {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 18.75px;
+  text-align: left;
+  color: rgb(221, 34, 66);
+  margin: 0px;
+}
+
+.second {
+  position: absolute;
+  width: 131px;
+  height: 21.01px;
+  top: 753px;
+  left: 23px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.p__header {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.83px;
+  text-align: left;
+  color: white;
+  transform: rotate(-90deg);
+}
