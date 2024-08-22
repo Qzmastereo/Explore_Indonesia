@@ -1,4 +1,21 @@
 .title__explore {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
+  font-size: 50px;
+}
+
+.exolore__container {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1284px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.explore__section {
+  width: 1922px;
+  height: 2208px;
 }

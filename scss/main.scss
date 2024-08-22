@@ -1,3 +1,14 @@
 @import"./_components/explore";
 @import"./_components/map";
 @import "./_components/video";
+
+.container {
+    width: 1284px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.explore__section {
+    width: 1922px;
+    height: 2208px;
+}
