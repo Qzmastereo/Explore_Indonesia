@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header #top">
         <div class="container__header">
             <div class="nav__header">
                 <img class="logo__header" src="./img/svg/logo_header.svg">
@@ -165,6 +165,9 @@
                     </h1>
                     <div class="video__content-wrapper">
                         <img class="video__photo" src="img/video/video2.png" alt="" width="700px">
+                        <svg class="video-play__button" height="40px" width="40px">
+                            <use href="img/svg/symbol-defs.svg#icon-play_arrow"></use>
+                        </svg>
                     </div>
                 </div>
         
@@ -180,7 +183,7 @@
                         </div>
                     </div>
                     <div class="footer-video__item">
-                        <img class="footer-video__photo" src="img/video/video4.png" alt="">
+                        <img class="footer-video__photo _actives" src="img/video/video4.png" alt="">
                         <div class="footer-video__label">
                             <h4 class="footer-video__title">In The Country</h4>
                             <p class="footer-video__text">
@@ -194,35 +197,34 @@
         </div>
     </section>
     <section class="gallery">
-        <h2>
+        <h2 class="titleGallery">
             Photo Gallery
         </h2>
 
-        <p>
+        <p class="subTitleGallery">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Phasellus dapibus mauris in lectus tempus, eget tincidunt.
         </p>
 
         <div class="photo_gaps">
-            <div class="photo_gap1">
+           
                 <img src="./img/gallery/gallery1.png" class=" photo_gap1_line1">
                 <img src="./img/gallery/gallery2.png" class="photo_gap1_line2">
-            </div>
-            <div class="photo_gap2">
+            
+            
                 <img src="./img/gallery/gallery3.png" class="photo_gap2_line1">
                 <img src="./img/gallery/gallery4.png" class="photo_gap2_line2">
-            </div>
-            <div class="photo_gap3">
+            
                 <img src="./img/gallery/gallery5.png" class="photo_gap3_line1">
                 <img src="./img/gallery/gallery6.png" class="photo_gap3_line2">
-            </div>
+            
         </div>
 
     </section>
     <section class="getting">
-        <h1>
+        <h2 class="tileGetting">
             Getting there
-        </h1>
+        </h2>
 
         <div class="points">
 
@@ -300,6 +302,7 @@
         <div class="footer__copyrigh">
             <p>Copyright © 2019</p>
         </div>
-        
+
+        <a class="footer__button" href="#top">^</a>
     </footer>
 </body>
