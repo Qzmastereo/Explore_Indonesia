@@ -1,0 +1,52 @@
+.map {
+    height: 822px;
+    background-image: url('/img/bg/info_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title__map {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    width: 614px;
+}
+
+.text__map {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: rgba(111, 119, 135, 1);
+    width: 470px;
+    margin: 32px 0 36px 0;
+}
+
+.container__map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn__map {
+    background-color: rgba(221, 34, 66, 1);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 18px 56px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    cursor: pointer;
+}

@@ -1,6 +1,134 @@
 .title__explore {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
+  font-size: 50px;
+}
+
+.explore {
+  padding: 127px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 2207px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/img/bg/explore_bg.png");
+}
+
+.container__explore {
+  min-width: 1340px;
+  height: 370px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container__numbers {
+  height: 794px;
+  padding: 200px 0 220px 0;
+  background-color: rgba(2, 12, 33, 0.884);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title__numbers {
+  font-family: "DM Sans", sans-serif;
+  font-size: 60px;
+  color: white;
+  margin: 0;
+}
+
+.text__numbers {
+  margin: 38px 0;
+  width: 484px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: white;
+}
+
+.ul__numbers {
+  list-style: none;
+  display: flex;
+}
+
+.li--title__numbers {
+  font-family: DM Sans;
+  font-size: 42.14px;
+  font-weight: 700;
+  line-height: 49.16px;
+  letter-spacing: 0.3862603307px;
+  text-align: center;
+  color: rgb(221, 34, 66);
+}
+
+.li--text__numbers {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  width: 340px;
+  color: white;
+}
+
+.map {
+  height: 822px;
+  background-image: url("/img/bg/info_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title__map {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  width: 614px;
+}
+
+.text__map {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgb(111, 119, 135);
+  width: 470px;
+  margin: 32px 0 36px 0;
+}
+
+.container__map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn__map {
+  background-color: rgb(221, 34, 66);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 18px 56px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  cursor: pointer;
 }
 
 .video {
