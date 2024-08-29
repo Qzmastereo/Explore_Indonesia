@@ -1,4 +1,22 @@
 .title__explore {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
+    font-size: 50px;
+    color: white;
 }
+
+.container__explore {
+  width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/img/bg/explore_bg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+  .explore__section {
+  width: 1922px;
+  height: 2208px;
+  }

@@ -1,5 +1,12 @@
-@import"./_components/explore";
-@import"./_components/map";
+@import "./_components/explore";
+@import "./_components/map";
 @import "./_components/video";
 @import "./_components/gallery";
 @import "./_components/getting";
+@import "./_components/slides";
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}   
