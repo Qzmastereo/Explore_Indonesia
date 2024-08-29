@@ -229,6 +229,12 @@
   transform: rotate(-90deg);
 }
 
+.galleryContainer {
+  max-width: 1340px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
 .titleGallery {
   display: flex;
   font-family: "DM Sans", sans-serif;
