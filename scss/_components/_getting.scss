@@ -1,29 +1,118 @@
-.titleGallery {
 
-    display: flex;
+
+  
+  .getting {
+    max-width: 3400px;
+    max-height: 1400px;
+    padding-left: 520px;
     font-family: "DM Sans", sans-serif;
+    background:  #DCE8F2; 
+    color: #4a4a4a;
+  }
+  
+  .getting_title {
     font-size: 60px;
-    font-weight: 700;
-    justify-content: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #010A20;
+  }
 
-              }
+  .getting_title_content {
 
-.subTitleGallery {
+    font-size: 26px;
 
-    display: flex;
-    font-family: "DM Sans", sans-serif;
+  }
+
+  .getting_paraghraf_content {
+
+    color: #15143966;
+
+  }
+  
+  .timeline {
+    position: relative;
+    padding-left: -25px;
+   
+  }
+  
+  .timeline_item {
+    margin-bottom: 180px;
+    position: relative;
+  }
+  
+  .timeline_circle {
+    width: 58px;
+    height: 58px;
+    background-color: #f03a47;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 40px;
     font-size: 18px;
-    font-weight: 400;
-    justify-content: center;
-    color:#6F7787;
-
-                 }
-
-.photo_gaps {
-
+    font-weight: bold;
+    position: absolute;
+    
+  }
+  
+  .content {
+    margin-left: 120px;
+    max-width: 500px;
+    color: #010A20;
+  }
+  
+  .sub_content {
     display: flex;
-    justify-content: center;
-}
+    margin-top: 20px;
+  }
+  
+  .sub_content_img {
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 60px;
+  }
+  
+  .getting_button {
+    background-color: #f03a47;
+    color: white;
+    width: 210px;
+    height: 64px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 122px;
+    margin-top: 20px;
+  }
+  
 
-.photo_gap1 {}
+  .border {
+    position: absolute;
+    width: 2px; 
+    background-color: #15143966;
+    opacity: 40%;
+    left: 548px; 
+    transform: translateX(-50%);
+    margin-top: 160px; 
+    height: 970px; 
+  }
 
+  .getting_title_content_sibImg {
+
+    margin-top: 60px;
+    margin-left: 20px;
+
+  }
+
+  .getting_paraghraf_content {
+
+    font-size: 24px;
+    color: #15143966;
+    width: 820px;
+  }
+
+  .getting_paraghraf_contentTravelling {
+
+    font-size: 24px;
+    color: #15143966;
+    width: 520px;
+
+  }
