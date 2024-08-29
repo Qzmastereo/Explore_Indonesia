@@ -19,6 +19,7 @@
         integrity="sha512-0P3tMnVtKaEEr+1uLJ8mk1dNNiZXbr79NYG0ubGSmvleZNmunc1sVTp6w8g7BXEuYSuoX9qN9NTihxEXb7VlpQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
@@ -91,34 +92,36 @@
             </div>
         </div>
     </section>
-    <section class="explore">
-        <div class="explore__container">
-            <h3 class="title__explore">Explore Our Secrets</h3>
-            <div class="container--slideshow__explore">
-                <div class="slides__explore">
-                    <div class="slide__explore"></div>
-                    <div class="slide__explore"></div>
-                    <div class="slide__explore"></div>
-                    <div class="slide__explore"></div>
-                    <div class="slide__explore"></div>
-                    <div class="slide__explore"></div>
-                    <div class="slide__explore"></div>
-                    <div class="slide__explore"></div>
-                    <div class="slide__explore"></div>
+    <section class="explore__section">
+        <div class="container">
+            <div class="container__explore">
+                <h3 class="title__explore">Explore Our Secrets</h3>
+                <div class="container--slideshow__explore">
+                    <div class="slides__explore">
+                        <div class="slide__explore"></div>
+                        <div class="slide__explore"></div>
+                        <div class="slide__explore"></div>
+                        <div class="slide__explore"></div>
+                        <div class="slide__explore"></div>
+                        <div class="slide__explore"></div>
+                        <div class="slide__explore"></div>
+                        <div class="slide__explore"></div>
+                        <div class="slide__explore"></div>
+                    </div>
+
+                    <a class="prev__explore" onclick="moveSlides(-1)">&#10094;</a>
+                    <a class="next__explore" onclick="moveSlides(1)">&#10095;</a>
                 </div>
 
-                <a class="prev__explore" onclick="moveSlides(-1)">&#10094;</a>
-                <a class="next__explore" onclick="moveSlides(1)">&#10095;</a>
-            </div>
-
-            <div class="container--dot__explore">
-                <span class="dot__explore" onclick="currentSlide(0)"></span>
-                <span class="dot__explore" onclick="currentSlide(1)"></span>
-                <span class="dot__explore" onclick="currentSlide(2)"></span>
-                <span class="dot__explore" onclick="currentSlide(3)"></span>
-                <span class="dot__explore" onclick="currentSlide(4)"></span>
-                <span class="dot__explore" onclick="currentSlide(5)"></span>
-                <span class="dot__explore" onclick="currentSlide(6)"></span>
+                <div class="container--dot__explore">
+                    <span class="dot__explore" onclick="currentSlide(0)"></span>
+                    <span class="dot__explore" onclick="currentSlide(1)"></span>
+                    <span class="dot__explore" onclick="currentSlide(2)"></span>
+                    <span class="dot__explore" onclick="currentSlide(3)"></span>
+                    <span class="dot__explore" onclick="currentSlide(4)"></span>
+                    <span class="dot__explore" onclick="currentSlide(5)"></span>
+                    <span class="dot__explore" onclick="currentSlide(6)"></span>
+                </div>
             </div>
             <div class="container__numbers">
                 <h2 class="title__numbers">By the numbers</h2>
@@ -257,14 +260,7 @@
                 </div>
             </div>
 
-            <div class="timeline_item">
-                <div class="timeline_circle">3</div>
-                <div class="content">
-                    <h3 class="getting_title_content">Planning your experiences</h3>
-                    <p class="getting_paraghraf_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus
-                        tempus, eget tincidunt lacus varius.</p>
-                    <button class="getting_button">Learn More</button>
-                </div>
+
             </div>
         </div>
         <section>
@@ -299,4 +295,3 @@
             </div>
         </footer>
 
-</body>
