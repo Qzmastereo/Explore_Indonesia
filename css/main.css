@@ -533,6 +533,7 @@
 
 .content {
   margin-left: 120px;
+  margin-bottom: 40px;
   max-width: 500px;
   color: #010A20;
 }
@@ -547,17 +548,6 @@
   height: auto;
   margin-right: 20px;
   margin-top: 60px;
-}
-
-.getting_button {
-  background-color: #f03a47;
-  color: white;
-  width: 210px;
-  height: 64px;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 122px;
-  margin-top: 20px;
 }
 
 .border {
@@ -586,6 +576,17 @@
   font-size: 24px;
   color: rgba(21, 20, 57, 0.4);
   width: 520px;
+}
+
+.getting_btn {
+  background-color: #f03a47;
+  color: white;
+  width: 210px;
+  height: 64px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 122px;
+  margin-top: 20px;
 }
 
 .footer {
