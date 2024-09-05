@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .title__explore {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
@@ -280,10 +281,39 @@
   gap: 30px;
 }
 
+@media (max-width: 575px) {
+  .container {
+    max-width: 575px;
+  }
+  .titleGallery {
+    display: flex;
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 30px;
+    text-align: center;
+  }
+  .subTitleGallery {
+    display: flex;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: center;
+    color: #6F7787;
+    margin-left: 30px;
+    text-align: center;
+  }
+  .photo_gaps {
+    flex-direction: column;
+    gap: 20px; /* Збільшуємо простір між елементами */
+  }
+  .photo_gaps img {
+    width: 100%;
+  }
+}
 .getting {
   max-width: 3400px;
   max-height: 1400px;
-  padding-left: 520px;
   font-family: "DM Sans", sans-serif;
   background: #DCE8F2;
   color: #4a4a4a;
@@ -294,6 +324,7 @@
   font-weight: bold;
   padding-top: 30px;
   color: #010A20;
+  padding-left: 520px;
 }
 
 .getting_title_content {
@@ -306,7 +337,7 @@
 
 .timeline {
   position: relative;
-  padding-left: -25px;
+  padding-left: 520px;
 }
 
 .timeline_item {
